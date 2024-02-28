@@ -12,7 +12,7 @@
         <!--Item 2-->
         <scene sceneID="fRZ-VN-ars">
             <objects>
-                <viewController id="y3n-FA-mmo" customClass="ViewController" customModule="SRinis" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="y3n-FA-mmo" customClass="CollectionViewController" customModule="SRinis" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v14-9g-4Y5">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,10 +23,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Prr-XY-10A" customClass="CollectionViewController" customModule="SRinis" customModuleProvider="target">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Prr-XY-10A">
                                 <rect key="frame" x="40" y="153" width="313" height="545.33333333333326"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="dmw-Ht-QRG">
                                     <size key="itemSize" width="313" height="556"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -106,9 +105,6 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <outlet property="pageControl" destination="HGO-fc-vAi" id="g80-bQ-2l1"/>
-                                </connections>
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="HGO-fc-vAi">
                                 <rect key="frame" x="138" y="706" width="116" height="26"/>
@@ -125,6 +121,10 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="gKZ-yZ-AWz"/>
+                    <connections>
+                        <outlet property="collectionView" destination="Prr-XY-10A" id="psR-u2-MCa"/>
+                        <outlet property="pageControl" destination="HGO-fc-vAi" id="3oJ-Q1-1VJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WkX-nO-wa1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
