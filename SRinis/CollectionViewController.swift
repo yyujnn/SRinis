@@ -11,7 +11,7 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
     
     
     // 이미지 배열과 텍스트 배열
-    let images = [UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1")]
+    let images = [UIImage(named: "JinyoungJang_Profile"), UIImage(named: "profile_Image1"), UIImage(named: "SianLee_Profile"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1")]
     let titles = ["Title 1", "Title 2", "Title 3"]
     let subtitles = ["Title 1", "Title 2", "Title 3"]
     let members: [Member] = [JinyoungJang(),JunyoungPark(), SianLee(), HyunRyeolPark(),YujinJeong()]
@@ -34,7 +34,7 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(imageTapped))
                imageView.isUserInteractionEnabled = true
                imageView.addGestureRecognizer(tapGesture)
-        imageView.image = UIImage(named: "BottomTabBar_Image")
+        imageView.image = UIImage(named: "CellSwitch_Card")
 //        collectionView2.register(ListCollectionViewCell.self, forCellWithReuseIdentifier: "ListCollectionViewCell")
 
         if let backgroundImage = UIImage(named: "Background_Image") {
@@ -48,12 +48,12 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
     var isToggled = false
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
             if isToggled {
-                imageView.image = UIImage(named: "BottomTabBar_Image")
+                imageView.image = UIImage(named: "CellSwitch_Card")
                 collectionView.isHidden = false
                 collectionView2.isHidden = true
                 pageControl.isHidden = false
             } else {
-                imageView.image = UIImage(named: "Background_Image")
+                imageView.image = UIImage(named: "CellSwitch_List")
                 collectionView.isHidden = true
                 collectionView2.isHidden = false
                 pageControl.isHidden = true
