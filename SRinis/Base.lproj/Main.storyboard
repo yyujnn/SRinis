@@ -12,9 +12,6 @@
         <array key="Cafe24Supermagic-Bold-v1.0.otf">
             <string>Cafe24Supermagic-OTF-Bold</string>
         </array>
-        <array key="Cafe24Supermagic-Bold-v1.0.ttf">
-            <string>Cafe24Supermagic-Bold</string>
-        </array>
         <array key="NanumGothicCoding-Bold.ttf">
             <string>NanumGothicCoding-Bold</string>
         </array>
@@ -32,8 +29,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="CardViewLabel" text="팀원 소개" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U35-ua-UyE">
-                                <rect key="frame" x="40" y="113.00000000000001" width="110" height="33.666666666666671"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                <rect key="frame" x="40" y="112.99999999999999" width="110" height="34.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -65,7 +62,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="303" height="360"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIH-pQ-gZ9">
-                                                            <rect key="frame" x="20" y="370" width="40" height="28"/>
+                                                            <rect key="frame" x="20" y="380" width="40" height="28"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -73,7 +70,7 @@
                                                             <size key="shadowOffset" width="1" height="1"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="첫 프로젝트 잘해봐요✨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Oe-7B-N8K">
-                                                            <rect key="frame" x="20" y="423" width="191" height="25"/>
+                                                            <rect key="frame" x="20" y="433" width="191" height="25"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -89,7 +86,7 @@
                                                         <constraint firstItem="9eT-Bo-WGi" firstAttribute="leading" secondItem="B80-CA-gyl" secondAttribute="leading" id="aPd-7F-4vq"/>
                                                         <constraint firstItem="3Oe-7B-N8K" firstAttribute="top" secondItem="eIH-pQ-gZ9" secondAttribute="bottom" constant="25" id="hb1-ua-b8c"/>
                                                         <constraint firstItem="3Oe-7B-N8K" firstAttribute="leading" secondItem="B80-CA-gyl" secondAttribute="leading" constant="20" id="hbu-hf-A1S"/>
-                                                        <constraint firstItem="eIH-pQ-gZ9" firstAttribute="top" secondItem="9eT-Bo-WGi" secondAttribute="bottom" constant="10" id="lgj-LR-EJo"/>
+                                                        <constraint firstItem="eIH-pQ-gZ9" firstAttribute="top" secondItem="9eT-Bo-WGi" secondAttribute="bottom" constant="20" id="lgj-LR-EJo"/>
                                                         <constraint firstItem="eIH-pQ-gZ9" firstAttribute="leading" secondItem="B80-CA-gyl" secondAttribute="leading" constant="20" id="pSP-cg-uSs"/>
                                                     </constraints>
                                                     <userDefinedRuntimeAttributes>
@@ -159,17 +156,17 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2B1-OX-CK6">
-                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="100"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="313" height="95"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6g-YE-CBH">
-                                                            <rect key="frame" x="100" y="64" width="42" height="21"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="100" y="55" width="42" height="17"/>
+                                                            <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz6-am-op9">
-                                                            <rect key="frame" x="100" y="15" width="42" height="21"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="100" y="20" width="50" height="20"/>
+                                                            <fontDescription key="fontDescription" name="NanumGothicCoding-Bold" family="NanumGothicCoding" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -199,21 +196,20 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstItem="Wz6-am-op9" firstAttribute="top" secondItem="2B1-OX-CK6" secondAttribute="top" constant="15" id="2DT-ee-MGv"/>
+                                                        <constraint firstItem="Wz6-am-op9" firstAttribute="top" secondItem="2B1-OX-CK6" secondAttribute="top" constant="20" id="2DT-ee-MGv"/>
                                                         <constraint firstItem="sUx-bV-0OJ" firstAttribute="top" secondItem="2B1-OX-CK6" secondAttribute="top" constant="15" id="DJv-r9-bVW"/>
                                                         <constraint firstItem="w6g-YE-CBH" firstAttribute="leading" secondItem="sUx-bV-0OJ" secondAttribute="trailing" constant="20" id="KJl-MM-6Dv"/>
                                                         <constraint firstItem="Wz6-am-op9" firstAttribute="leading" secondItem="sUx-bV-0OJ" secondAttribute="trailing" constant="20" id="PkY-v7-MWY"/>
                                                         <constraint firstItem="sUx-bV-0OJ" firstAttribute="leading" secondItem="2B1-OX-CK6" secondAttribute="leading" constant="10" id="SJN-La-XGv"/>
-                                                        <constraint firstAttribute="bottom" secondItem="w6g-YE-CBH" secondAttribute="bottom" constant="15" id="YBo-Lp-fJM"/>
-                                                        <constraint firstItem="w6g-YE-CBH" firstAttribute="top" secondItem="Wz6-am-op9" secondAttribute="bottom" constant="28" id="ZTF-BA-cg0"/>
+                                                        <constraint firstItem="w6g-YE-CBH" firstAttribute="top" secondItem="Wz6-am-op9" secondAttribute="bottom" constant="15" id="ZTF-BA-cg0"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="2B1-OX-CK6" firstAttribute="leading" secondItem="iBF-EB-mea" secondAttribute="leading" id="8Xh-AU-sG9"/>
+                                                <constraint firstAttribute="bottom" secondItem="2B1-OX-CK6" secondAttribute="bottom" constant="5" id="Es6-36-RBm"/>
                                                 <constraint firstAttribute="trailing" secondItem="2B1-OX-CK6" secondAttribute="trailing" id="V8R-mF-uha"/>
                                                 <constraint firstItem="2B1-OX-CK6" firstAttribute="top" secondItem="iBF-EB-mea" secondAttribute="top" id="WdS-bS-PYg"/>
-                                                <constraint firstAttribute="bottom" secondItem="2B1-OX-CK6" secondAttribute="bottom" id="qgm-yJ-gd4"/>
                                             </constraints>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
@@ -281,8 +277,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팀 소개" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7G-jC-yV1">
-                                <rect key="frame" x="40" y="69" width="313" height="32.666666666666657"/>
-                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                <rect key="frame" x="40" y="69" width="313" height="34.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

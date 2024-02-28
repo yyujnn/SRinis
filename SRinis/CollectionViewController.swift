@@ -11,7 +11,8 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
     
     
     // 이미지 배열과 텍스트 배열
-    let images = [UIImage(named: "JinyoungJang_Profile"), UIImage(named: "profile_Image1"), UIImage(named: "SianLee_Profile"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1")]
+    let images = [UIImage(named: "JinyoungJang_Profile"), UIImage(named: "JunyoungPark_Profile"), UIImage(named: "SianLee_Profile"), UIImage(named: "HyunryeolPark_Profile"), UIImage(named: "YujinJeong_Profile")]
+    let listImages = [UIImage(named: "JinyoungJang_Face"), UIImage(named: "JunyoungPark_Face"), UIImage(named: "SianLee_Face"), UIImage(named: "HyunryeolPark_Face"), UIImage(named: "YujinJeong_Face")]
     let titles = ["Title 1", "Title 2", "Title 3"]
     let subtitles = ["Title 1", "Title 2", "Title 3"]
     let members: [Member] = [JinyoungJang(),JunyoungPark(), SianLee(), HyunRyeolPark(),YujinJeong()]
@@ -43,7 +44,6 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
         
         collectionView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
         collectionView2.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
-        
     }
     var isToggled = false
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
@@ -76,7 +76,7 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
             } else {
                 let cell2 = collectionView.dequeueReusableCell(withReuseIdentifier: "ListCollectionViewCell", for: indexPath) as! ListCollectionViewCell
                 let member = members[indexPath.item]
-                cell2.imageView.image = images[indexPath.item]
+                cell2.imageView.image = listImages[indexPath.item]
                 cell2.titleLabel.text = member.name
                 cell2.descriptionLabel.text = member.shortDescription
                 return cell2
