@@ -17,6 +17,7 @@
 		B5EAD5762B8EC2E40030F2DD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */; };
 		B5EAD5772B8EC2E40030F2DD /* BottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5732B8EC2E40030F2DD /* BottomTabBarController.swift */; };
 		B5EAD5782B8EC2E40030F2DD /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */; };
+		B5EAD5802B8ECC880030F2DD /* ProfileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		B5EAD5732B8EC2E40030F2DD /* BottomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTabBarController.swift; sourceTree = "<group>"; };
 		B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */,
 				B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */,
 				B5EAD5712B8EC2E40030F2DD /* CollectionViewController.swift */,
+				B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */,
 			);
 			path = SRinis;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				B5EAD5782B8EC2E40030F2DD /* BottomTabView.swift in Sources */,
 				B5EAD55C2B8EC1930030F2DD /* AppDelegate.swift in Sources */,
 				B5EAD5772B8EC2E40030F2DD /* BottomTabBarController.swift in Sources */,
+				B5EAD5802B8ECC880030F2DD /* ProfileListViewController.swift in Sources */,
 				B5EAD55E2B8EC1930030F2DD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
