@@ -17,7 +17,7 @@ class BottomTab: UITabBar{
         }
         // MARK: - Selected Item Color
         if let selectedImage = UIImage(named: "Background_Image") {
-            let selectedColor = UIColor(patternImage: selectedImage)
+            _ = UIColor(patternImage: selectedImage)
             self.selectedItem?.image = selectedImage
         }
 //        let selectedImage = UIImage(named: "Background_Image")
