@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import SwiftUI
 class CollectionViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     
@@ -52,6 +52,12 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
         pageControl.currentPage = currentPage
         print(currentPage)
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("Tapped Card \(indexPath.item)")
+        // SwiftUI 뷰를 UIKit으로 호스팅하는 UIHostingController 생성
+        let swiftUIController = UIHostingController(rootView: MemberDetailView())
+        swiftUIController.hidesBottomBarWhenPushed = true
+        navigationController?.pushViewController(swiftUIController, animated: true)
+    }
 }
 
