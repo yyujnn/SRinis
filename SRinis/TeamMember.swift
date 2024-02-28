@@ -11,7 +11,7 @@ struct JinyoungJang: Member {
     let name = "장진영"
     let email = "mgynsz@gmail.com"
     let mbti = "INFJ"
-    let hobby = "진영님 취미"
+    let hobby = "등산"
     let shortDescription = "으랏차차!"
     let isLeader = true
     let blogURL = "https://velog.io/@mgynsz/posts"
@@ -22,7 +22,7 @@ struct JunyoungPark: Member {
     let name = "박준영"
     let email = "juniostudo@gmail.com"
     let mbti = "INFJ"
-    let hobby = "준영님 취미"
+    let hobby = "드라마보기, 게임, 공부"
     let shortDescription = "열심히 달려봅시다✨✨"
     let isLeader = false
     let blogURL = "https://stayjun.tistory.com/"
@@ -33,7 +33,7 @@ struct SianLee: Member {
     let name = "이시안"
     let email = "20191886@sungshin.ac.kr"
     let mbti = "INFP"
-    let hobby = "시안님 취미"
+    let hobby = "영화보기, 그림그리기"
     let shortDescription = "열심히 할게요…🥺🥺"
     let isLeader = false
     let blogURL = "https://velog.io/@macaroner/posts"
@@ -44,7 +44,7 @@ struct HyunRyeolPark: Member {
     let name = "박현렬"
     let email = "devpark435@gmail.com"
     let mbti = "ENTJ"
-    let hobby = "현렬님 취미"
+    let hobby = "산책, 넷플릭스"
     let shortDescription = "화이팅"
     let isLeader = false
     let blogURL = "https://velog.io/@devpark435/posts"

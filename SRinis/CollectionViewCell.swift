@@ -16,5 +16,7 @@ class CollectionViewCell: UICollectionViewCell {
         super.layoutSubviews()
         self.layer.cornerRadius = 15
         self.layer.masksToBounds = true
+        titleLabel.font = UIFont(name: "NanumGothicCoding-Bold", size: 22)
+        descriptionLabel.font = UIFont(name: "NanumGothicCoding", size: 20)
     }
 }

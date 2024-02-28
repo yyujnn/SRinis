@@ -26,6 +26,9 @@
 		B5EAD5982B8F0C240030F2DD /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */; };
 		B5EAD59C2B8F16E40030F2DD /* WeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD59B2B8F16E40030F2DD /* WeTableViewController.swift */; };
 		B5EAD59E2B8F19E70030F2DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD59D2B8F19E70030F2DD /* .gitignore */; };
+		B5EAD5A22B8F44630030F2DD /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A02B8F44630030F2DD /* NanumGothicCoding-Bold.ttf */; };
+		B5EAD5A32B8F44630030F2DD /* NanumGothicCoding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A12B8F44630030F2DD /* NanumGothicCoding.ttf */; };
+		B5EAD5A52B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5EAD59B2B8F16E40030F2DD /* WeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeTableViewController.swift; sourceTree = "<group>"; };
 		B5EAD59D2B8F19E70030F2DD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B5EAD5A02B8F44630030F2DD /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
+		B5EAD5A12B8F44630030F2DD /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicCoding.ttf; sourceTree = "<group>"; };
+		B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Supermagic-Bold-v1.0.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		B5EAD55A2B8EC1930030F2DD /* SRinis */ = {
 			isa = PBXGroup;
 			children = (
+				B5EAD59F2B8F443E0030F2DD /* Font */,
 				B5EAD55B2B8EC1930030F2DD /* AppDelegate.swift */,
 				B5EAD55D2B8EC1930030F2DD /* SceneDelegate.swift */,
 				B5EAD55F2B8EC1930030F2DD /* ViewController.swift */,
@@ -104,6 +111,16 @@
 				B5EAD59D2B8F19E70030F2DD /* .gitignore */,
 			);
 			path = SRinis;
+			sourceTree = "<group>";
+		};
+		B5EAD59F2B8F443E0030F2DD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */,
+				B5EAD5A02B8F44630030F2DD /* NanumGothicCoding-Bold.ttf */,
+				B5EAD5A12B8F44630030F2DD /* NanumGothicCoding.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +183,12 @@
 			files = (
 				B5EAD59E2B8F19E70030F2DD /* .gitignore in Resources */,
 				B5EAD5682B8EC1970030F2DD /* LaunchScreen.storyboard in Resources */,
+				B5EAD5A52B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf in Resources */,
+				B5EAD5A32B8F44630030F2DD /* NanumGothicCoding.ttf in Resources */,
 				B5EAD5652B8EC1970030F2DD /* Assets.xcassets in Resources */,
 				B5EAD5632B8EC1930030F2DD /* Main.storyboard in Resources */,
 				B5EAD5902B8EDEF10030F2DD /* Quiz.storyboard in Resources */,
+				B5EAD5A22B8F44630030F2DD /* NanumGothicCoding-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +368,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SRinis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -376,7 +396,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SRinis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
