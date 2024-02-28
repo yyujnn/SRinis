@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CollectionViewController: UICollectionView,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+class CollectionViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     
     // 이미지 배열과 텍스트 배열
@@ -18,24 +18,18 @@ class CollectionViewController: UICollectionView,UICollectionViewDataSource,UICo
     // 컬렉션 뷰 아웃렛 연결
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
-        super.init(frame: frame, collectionViewLayout: layout)
-        self.dataSource = self
-       
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.dataSource = self
-    }
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // 페이지 컨트롤 설정
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        collectionView.dataSource = self
+        collectionView.delegate = self
         pageControl.numberOfPages = images.count
         pageControl.currentPage = 0
         print("\(pageControl.currentPage)")
         print("\(pageControl.numberOfPages)")
-        self.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
+        if let backgroundImage = UIImage(named: "Background_Image") {
+            view.backgroundColor = UIColor(patternImage: backgroundImage)
+        }
+        collectionView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
         
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
