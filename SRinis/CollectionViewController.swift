@@ -11,7 +11,7 @@ class CollectionViewController: UICollectionView,UICollectionViewDataSource,UICo
     
     
     // 이미지 배열과 텍스트 배열
-    let images = [UIImage(named: "Image1"), UIImage(named: "Image1"), UIImage(named: "Image1")]
+    let images = [UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1"), UIImage(named: "profile_Image1")]
     let titles = ["Title 1", "Title 2", "Title 3"]
     let subtitles = ["Title 1", "Title 2", "Title 3"]
     
