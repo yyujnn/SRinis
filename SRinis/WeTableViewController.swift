@@ -10,8 +10,10 @@ class WeTableViewController: UIViewController {
         super.viewDidLoad()
         WeTableView.delegate = self
         WeTableView.dataSource = self
-        // 테이블 뷰의 배경색을 투명하게 설정
-        WeTableView.backgroundColor = UIColor.clear
+        
+        if let backgroundImage = UIImage(named: "Background_Image") {
+            view.backgroundColor = UIColor(patternImage: backgroundImage)
+        }
     }
 }
 
