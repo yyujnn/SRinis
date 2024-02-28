@@ -24,7 +24,7 @@ class QuizViewController: UIViewController {
         exampleView.backgroundColor = UIColor.clear
         // 배경 이미지뷰
         let backgroundImg = UIImageView(frame: UIScreen.main.bounds)
-        backgroundImg.image = UIImage(named: "backgroundImg")
+        backgroundImg.image = UIImage(named: "Background_Image")
         // 기존 뷰에 배경 이미지뷰 추가
         self.view.addSubview(backgroundImg)
         self.view.sendSubviewToBack(backgroundImg)
