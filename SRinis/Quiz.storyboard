@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cafe24Supermagic-Bold-v1.0.otf">
+            <string>Cafe24Supermagic-OTF-Bold</string>
+        </array>
+        <array key="NanumGothicCoding-Bold.ttf">
+            <string>NanumGothicCoding-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="QuizViewController" storyboardIdentifier="QuizViewController" id="BYZ-38-t0r" customClass="QuizViewController" customModule="SRinis" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-5m-a8I">
+                                <rect key="frame" x="30" y="89" width="333" height="37.333333333333343"/>
+                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="bz6-1C-9Dd">
+                                <rect key="frame" x="84" y="141.33333333333334" width="225" height="225.00000000000003"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Pcg-d8-WU0">
+                                        <rect key="frame" x="0.0" y="0.0" width="225" height="225"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.90980386729999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="6hs-73-geN"/>
+                                    <constraint firstAttribute="width" constant="225" id="bIp-X1-Vru"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pcg-d8-WU0" secondAttribute="trailing" id="fR0-2b-1kv"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pcg-d8-WU0" secondAttribute="bottom" id="tBp-CH-Rtb"/>
+                                    <constraint firstItem="Pcg-d8-WU0" firstAttribute="leading" secondItem="bz6-1C-9Dd" secondAttribute="leading" id="w7n-Mx-rYk"/>
+                                    <constraint firstItem="Pcg-d8-WU0" firstAttribute="top" secondItem="bz6-1C-9Dd" secondAttribute="top" id="zLB-hS-WUc"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진 속 인물의 MBTI는?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0m-0V-v7u">
+                                <rect key="frame" x="58.666666666666657" y="386.33333333333331" width="275.66666666666674" height="32.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bHs-93-Z7U">
+                                <rect key="frame" x="10" y="435.66666666666674" width="373" height="386.33333333333326"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="szx-XN-1KC">
+                                        <rect key="frame" x="20" y="0.0" width="333" height="386.33333333333331"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5m-Yp-utk">
+                                                <rect key="frame" x="0.0" y="0.0" width="333" height="74"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.6470588235294118" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding-Bold" family="NanumGothicCoding" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="1. INFJ">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAh-tS-lhB">
+                                                <rect key="frame" x="0.0" y="103.99999999999994" width="333" height="74.333333333333314"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding-Bold" family="NanumGothicCoding" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="2. ISTJ">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQ1-QN-bB5">
+                                                <rect key="frame" x="0.0" y="208.33333333333331" width="333" height="74"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding-Bold" family="NanumGothicCoding" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="3. ENFP">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWe-z3-0zI">
+                                                <rect key="frame" x="0.0" y="312.33333333333331" width="333" height="74"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.64705882349999999" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding-Bold" family="NanumGothicCoding" pointSize="20"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="4. ENTJ">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="szx-XN-1KC" secondAttribute="bottom" id="AbN-xB-clM"/>
+                                    <constraint firstItem="szx-XN-1KC" firstAttribute="leading" secondItem="bHs-93-Z7U" secondAttribute="leading" constant="20" id="BOd-88-d5b"/>
+                                    <constraint firstAttribute="trailing" secondItem="szx-XN-1KC" secondAttribute="trailing" constant="20" id="PFc-av-xEz"/>
+                                    <constraint firstItem="szx-XN-1KC" firstAttribute="top" secondItem="bHs-93-Z7U" secondAttribute="top" id="yO3-fF-dVF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XfQ-5m-a8I" secondAttribute="trailing" constant="30" id="7bk-QR-blB"/>
+                            <constraint firstItem="bz6-1C-9Dd" firstAttribute="top" secondItem="XfQ-5m-a8I" secondAttribute="bottom" constant="15" id="H1X-Xe-Dq0"/>
+                            <constraint firstItem="XfQ-5m-a8I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="OcL-j5-9fl"/>
+                            <constraint firstItem="d0m-0V-v7u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pn3-St-gLR"/>
+                            <constraint firstItem="d0m-0V-v7u" firstAttribute="top" secondItem="bz6-1C-9Dd" secondAttribute="bottom" constant="20" id="TD0-cJ-WLg"/>
+                            <constraint firstItem="XfQ-5m-a8I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="ZZn-fC-UC6"/>
+                            <constraint firstAttribute="bottom" secondItem="bHs-93-Z7U" secondAttribute="bottom" constant="30" id="Zhq-Um-laF"/>
+                            <constraint firstItem="bz6-1C-9Dd" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bpg-vg-MtM"/>
+                            <constraint firstItem="bHs-93-Z7U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDe-qF-rLE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bHs-93-Z7U" secondAttribute="trailing" constant="10" id="hOU-3X-icy"/>
+                            <constraint firstItem="bHs-93-Z7U" firstAttribute="top" secondItem="d0m-0V-v7u" secondAttribute="bottom" constant="16.670000000000002" id="hi5-4s-ikl"/>
+                            <constraint firstItem="bHs-93-Z7U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="v4M-DT-bQK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="example1" destination="S5m-Yp-utk" id="9LV-Vv-tNS"/>
+                        <outlet property="example2" destination="QAh-tS-lhB" id="wv3-OS-TbB"/>
+                        <outlet property="example3" destination="oQ1-QN-bB5" id="DQg-Fp-7xM"/>
+                        <outlet property="example4" destination="mWe-z3-0zI" id="01z-DE-6ui"/>
+                        <outlet property="exampleView" destination="bHs-93-Z7U" id="53R-ZK-k3m"/>
+                        <outlet property="profileView" destination="bz6-1C-9Dd" id="PBi-my-DD1"/>
+                        <outlet property="questionLabel" destination="d0m-0V-v7u" id="kuC-k8-MO6"/>
+                        <outlet property="quizLabel" destination="XfQ-5m-a8I" id="8gK-df-nLi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-801" y="-161"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="302" height="415"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

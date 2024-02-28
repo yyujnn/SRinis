@@ -13,6 +13,19 @@
 		B5EAD5632B8EC1930030F2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5612B8EC1930030F2DD /* Main.storyboard */; };
 		B5EAD5652B8EC1970030F2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5642B8EC1970030F2DD /* Assets.xcassets */; };
 		B5EAD5682B8EC1970030F2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5662B8EC1970030F2DD /* LaunchScreen.storyboard */; };
+		B5EAD5752B8EC2E40030F2DD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5712B8EC2E40030F2DD /* CollectionViewController.swift */; };
+		B5EAD5762B8EC2E40030F2DD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */; };
+		B5EAD5772B8EC2E40030F2DD /* BottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5732B8EC2E40030F2DD /* BottomTabBarController.swift */; };
+		B5EAD5782B8EC2E40030F2DD /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */; };
+		B5EAD5802B8ECC880030F2DD /* ProfileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */; };
+		B5EAD5862B8ECDFD0030F2DD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5852B8ECDFD0030F2DD /* QuizViewController.swift */; };
+		B5EAD58A2B8ED5F70030F2DD /* MemberDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5892B8ED5F70030F2DD /* MemberDetailView.swift */; };
+		B5EAD5902B8EDEF10030F2DD /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD58F2B8EDEF10030F2DD /* Quiz.storyboard */; };
+		B5EAD5932B8EE28E0030F2DD /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5912B8EE28E0030F2DD /* TeamMember.swift */; };
+		B5EAD5942B8EE28E0030F2DD /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5922B8EE28E0030F2DD /* Protocol.swift */; };
+		B5EAD5982B8F0C240030F2DD /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */; };
+		B5EAD59C2B8F16E40030F2DD /* WeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD59B2B8F16E40030F2DD /* WeTableViewController.swift */; };
+		B5EAD59E2B8F19E70030F2DD /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD59D2B8F19E70030F2DD /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		B5EAD5642B8EC1970030F2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EAD5672B8EC1970030F2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5EAD5692B8EC1970030F2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EAD5712B8EC2E40030F2DD /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B5EAD5732B8EC2E40030F2DD /* BottomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTabBarController.swift; sourceTree = "<group>"; };
+		B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListViewController.swift; sourceTree = "<group>"; };
+		B5EAD5852B8ECDFD0030F2DD /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		B5EAD5892B8ED5F70030F2DD /* MemberDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberDetailView.swift; sourceTree = "<group>"; };
+		B5EAD58F2B8EDEF10030F2DD /* Quiz.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		B5EAD5912B8EE28E0030F2DD /* TeamMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		B5EAD5922B8EE28E0030F2DD /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5EAD59B2B8F16E40030F2DD /* WeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeTableViewController.swift; sourceTree = "<group>"; };
+		B5EAD59D2B8F19E70030F2DD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +89,19 @@
 				B5EAD5642B8EC1970030F2DD /* Assets.xcassets */,
 				B5EAD5662B8EC1970030F2DD /* LaunchScreen.storyboard */,
 				B5EAD5692B8EC1970030F2DD /* Info.plist */,
+				B5EAD5732B8EC2E40030F2DD /* BottomTabBarController.swift */,
+				B5EAD5742B8EC2E40030F2DD /* BottomTabView.swift */,
+				B5EAD5722B8EC2E40030F2DD /* CollectionViewCell.swift */,
+				B5EAD5712B8EC2E40030F2DD /* CollectionViewController.swift */,
+				B5EAD57F2B8ECC880030F2DD /* ProfileListViewController.swift */,
+				B5EAD5852B8ECDFD0030F2DD /* QuizViewController.swift */,
+				B5EAD5892B8ED5F70030F2DD /* MemberDetailView.swift */,
+				B5EAD58F2B8EDEF10030F2DD /* Quiz.storyboard */,
+				B5EAD5922B8EE28E0030F2DD /* Protocol.swift */,
+				B5EAD5912B8EE28E0030F2DD /* TeamMember.swift */,
+				B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */,
+				B5EAD59B2B8F16E40030F2DD /* WeTableViewController.swift */,
+				B5EAD59D2B8F19E70030F2DD /* .gitignore */,
 			);
 			path = SRinis;
 			sourceTree = "<group>";
@@ -125,9 +164,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EAD59E2B8F19E70030F2DD /* .gitignore in Resources */,
 				B5EAD5682B8EC1970030F2DD /* LaunchScreen.storyboard in Resources */,
 				B5EAD5652B8EC1970030F2DD /* Assets.xcassets in Resources */,
 				B5EAD5632B8EC1930030F2DD /* Main.storyboard in Resources */,
+				B5EAD5902B8EDEF10030F2DD /* Quiz.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EAD5762B8EC2E40030F2DD /* CollectionViewCell.swift in Sources */,
+				B5EAD58A2B8ED5F70030F2DD /* MemberDetailView.swift in Sources */,
+				B5EAD5932B8EE28E0030F2DD /* TeamMember.swift in Sources */,
+				B5EAD5752B8EC2E40030F2DD /* CollectionViewController.swift in Sources */,
 				B5EAD5602B8EC1930030F2DD /* ViewController.swift in Sources */,
+				B5EAD5782B8EC2E40030F2DD /* BottomTabView.swift in Sources */,
 				B5EAD55C2B8EC1930030F2DD /* AppDelegate.swift in Sources */,
+				B5EAD5982B8F0C240030F2DD /* ListCollectionViewCell.swift in Sources */,
+				B5EAD5772B8EC2E40030F2DD /* BottomTabBarController.swift in Sources */,
+				B5EAD5862B8ECDFD0030F2DD /* QuizViewController.swift in Sources */,
+				B5EAD5802B8ECC880030F2DD /* ProfileListViewController.swift in Sources */,
 				B5EAD55E2B8EC1930030F2DD /* SceneDelegate.swift in Sources */,
+				B5EAD5942B8EE28E0030F2DD /* Protocol.swift in Sources */,
+				B5EAD59C2B8F16E40030F2DD /* WeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
