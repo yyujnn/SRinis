@@ -28,6 +28,8 @@
 		B5EAD5A22B8F44630030F2DD /* NanumGothicCoding-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A02B8F44630030F2DD /* NanumGothicCoding-Bold.ttf */; };
 		B5EAD5A32B8F44630030F2DD /* NanumGothicCoding.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A12B8F44630030F2DD /* NanumGothicCoding.ttf */; };
 		B5EAD5A52B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */; };
+		B5EAD5B62B9090F40030F2DD /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5B42B9090F40030F2DD /* QuizData.swift */; };
+		B5EAD5B72B9090F40030F2DD /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5B52B9090F40030F2DD /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		B5EAD5A02B8F44630030F2DD /* NanumGothicCoding-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NanumGothicCoding-Bold.ttf"; sourceTree = "<group>"; };
 		B5EAD5A12B8F44630030F2DD /* NanumGothicCoding.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicCoding.ttf; sourceTree = "<group>"; };
 		B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Supermagic-Bold-v1.0.otf"; sourceTree = "<group>"; };
+		B5EAD5B42B9090F40030F2DD /* QuizData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		B5EAD5B52B9090F40030F2DD /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B5EAD5912B8EE28E0030F2DD /* TeamMember.swift */,
 				B5EAD5972B8F0C240030F2DD /* ListCollectionViewCell.swift */,
 				B5EAD59D2B8F19E70030F2DD /* .gitignore */,
+				B5EAD5B42B9090F40030F2DD /* QuizData.swift */,
+				B5EAD5B52B9090F40030F2DD /* QuizModel.swift */,
 			);
 			path = SRinis;
 			sourceTree = "<group>";
@@ -196,9 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EAD5B62B9090F40030F2DD /* QuizData.swift in Sources */,
 				B5EAD5762B8EC2E40030F2DD /* CollectionViewCell.swift in Sources */,
 				B5EAD58A2B8ED5F70030F2DD /* MemberDetailView.swift in Sources */,
 				B5EAD5932B8EE28E0030F2DD /* TeamMember.swift in Sources */,
+				B5EAD5B72B9090F40030F2DD /* QuizModel.swift in Sources */,
 				B5EAD5752B8EC2E40030F2DD /* CollectionViewController.swift in Sources */,
 				B5EAD5602B8EC1930030F2DD /* ViewController.swift in Sources */,
 				B5EAD5782B8EC2E40030F2DD /* BottomTabView.swift in Sources */,
