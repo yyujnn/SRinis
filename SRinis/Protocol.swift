@@ -8,7 +8,9 @@
 import Foundation
 
 protocol Member {
+    var image: String { get }
     var name: String { get }
+    var skill: String { get }
     var email: String { get }
     var mbti: String { get }
     var hobby: String { get }
