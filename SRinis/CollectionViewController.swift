@@ -98,9 +98,12 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Tapped Card \(indexPath.item)")
         // SwiftUI 뷰를 UIKit으로 호스팅하는 UIHostingController 생성
-        let swiftUIController = UIHostingController(rootView: MemberDetailView())
-        swiftUIController.hidesBottomBarWhenPushed = true
-        navigationController?.pushViewController(swiftUIController, animated: true)
+        let selectedMember = members[indexPath.item]
+        // SwiftUI 뷰로 멤버 데이터를 전달
+        let detailView = MemberDetailView(member: selectedMember)
+        let hostingController = UIHostingController(rootView: detailView)
+
+        navigationController?.pushViewController(hostingController, animated: true)
     }
 }
 

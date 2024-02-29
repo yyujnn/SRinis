@@ -8,7 +8,9 @@
 import Foundation
 
 struct JinyoungJang: Member {
+    let image = "JinyoungJang_Face"
     let name = "장진영"
+    let skill = "Swift, ChatGPT"
     let email = "mgynsz@gmail.com"
     let mbti = "INFJ"
     let hobby = "등산"
@@ -19,7 +21,9 @@ struct JinyoungJang: Member {
 }
 
 struct JunyoungPark: Member {
+    let image = "JunyoungPark_Face"
     let name = "박준영"
+    let skill = "HTML 5, CSS, Swift, JavaScript, Adobe XD"
     let email = "juniostudo@gmail.com"
     let mbti = "INFJ"
     let hobby = "드라마보기, 게임, 공부"
@@ -30,7 +34,9 @@ struct JunyoungPark: Member {
 }
 
 struct SianLee: Member {
+    let image = "SianLee_Face"
     let name = "이시안"
+    let skill = "Adobe, Figma, Swift(예정)"
     let email = "20191886@sungshin.ac.kr"
     let mbti = "INFP"
     let hobby = "영화보기, 그림그리기"
@@ -41,7 +47,9 @@ struct SianLee: Member {
 }
 
 struct HyunRyeolPark: Member {
+    let image = "HyunryeolPark_Face"
     let name = "박현렬"
+    let skill = "Swift, Flutter"
     let email = "devpark435@gmail.com"
     let mbti = "ENTJ"
     let hobby = "산책, 넷플릭스"
@@ -52,7 +60,9 @@ struct HyunRyeolPark: Member {
 }
 
 struct YujinJeong: Member {
+    let image = "YujinJeong_Face"
     let name = "정유진"
+    let skill = "Swift, Java, Python"
     let email = "yujin3504@gmail.com"
     let mbti = "ISFP"
     let hobby = "책 읽기, 사진 찍기"
