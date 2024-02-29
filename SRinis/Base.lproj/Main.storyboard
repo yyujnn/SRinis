@@ -21,6 +21,9 @@
         <array key="NanumGothicCoding.ttf">
             <string>NanumGothicCoding</string>
         </array>
+        <array key="TimesNewRoman.ttf">
+            <string>.SFUI-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Collection View Controller-->
@@ -308,7 +311,7 @@
                                                 <color key="backgroundColor" red="0.59770208599999997" green="0.64411902430000001" blue="0.50562393670000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="협업소개"/>
+                                                <state key="normal" title="협력소개"/>
                                                 <connections>
                                                     <segue destination="5dH-Ch-pHo" kind="push" id="XsH-L1-EbK"/>
                                                 </connections>
@@ -921,15 +924,15 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="역할 및 목표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOd-L9-GRH">
-                                                <rect key="frame" x="10" y="19.999999999999996" width="373" height="34.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <rect key="frame" x="10" y="20.000000000000004" width="373" height="33.333333333333343"/>
+                                                <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="28"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="목표" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osz-Rp-7qL">
-                                                <rect key="frame" x="10" y="64.666666666666657" width="373" height="27.666666666666671"/>
+                                                <rect key="frame" x="10" y="63.333333333333336" width="373" height="27.666666666666664"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -937,7 +940,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인의 역할" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4AB-bz-l5E">
-                                                <rect key="frame" x="10" y="185.66666666666669" width="373" height="27.666666666666657"/>
+                                                <rect key="frame" x="10" y="184.33333333333331" width="373" height="27.666666666666657"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -945,7 +948,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우리가 어떠한 사람들인지 잘 파악하기 쉽도록 하는것이 목표입니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jow-1T-xQf">
-                                                <rect key="frame" x="10" y="112.33333333333333" width="373" height="53.333333333333329"/>
+                                                <rect key="frame" x="10" y="110.99999999999999" width="373" height="53.333333333333329"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -953,7 +956,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="정유진 개발자 (팀원) - 퀴즈 베이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ng2-U0-PNI">
-                                                <rect key="frame" x="10" y="233.33333333333331" width="373" height="27.666666666666686"/>
+                                                <rect key="frame" x="10" y="232" width="373" height="27.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -961,7 +964,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박현렬 개발자 (팀원) - 멀티디스플린 AD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-EN-ifA">
-                                                <rect key="frame" x="20" y="281" width="353" height="27.666666666666686"/>
+                                                <rect key="frame" x="20" y="279.66666666666669" width="353" height="27.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -969,7 +972,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영 개발자 (팀원) - 팀 소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYA-Mh-cv3">
-                                                <rect key="frame" x="10" y="328.66666666666669" width="373" height="27.666666666666686"/>
+                                                <rect key="frame" x="10" y="327.33333333333331" width="373" height="27.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -977,7 +980,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영 개발자(팀장) - 개인소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TC1-4N-eGE">
-                                                <rect key="frame" x="10" y="376.33333333333331" width="373" height="53.333333333333314"/>
+                                                <rect key="frame" x="10" y="375" width="373" height="53.333333333333314"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -985,7 +988,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이시안 개발자(팀원) - 디자인 전체 담당" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsM-dU-vYs">
-                                                <rect key="frame" x="10" y="449.66666666666663" width="373" height="27.666666666666686"/>
+                                                <rect key="frame" x="10" y="448.33333333333337" width="373" height="27.666666666666686"/>
                                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
