@@ -8,9 +8,7 @@
 import UIKit
 import SwiftUI
 class CollectionViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
-    
-    
-    // 이미지 배열과 텍스트 배열
+    // MARK: - 이미지, Member 배열 선언
     let images = [UIImage(named: "JinyoungJang_Profile"), UIImage(named: "JunyoungPark_Profile"), UIImage(named: "SianLee_Profile"), UIImage(named: "HyunryeolPark_Profile"), UIImage(named: "YujinJeong_Profile")]
     let listImages = [UIImage(named: "JinyoungJang_Face"), UIImage(named: "JunyoungPark_Face"), UIImage(named: "SianLee_Face"), UIImage(named: "HyunryeolPark_Face"), UIImage(named: "YujinJeong_Face")]
     let titles = ["Title 1", "Title 2", "Title 3"]
@@ -22,6 +20,7 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
     @IBOutlet weak var collectionView2: UICollectionView!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.dataSource = self
@@ -36,7 +35,6 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
                imageView.isUserInteractionEnabled = true
                imageView.addGestureRecognizer(tapGesture)
         imageView.image = UIImage(named: "CellSwitch_Card")
-//        collectionView2.register(ListCollectionViewCell.self, forCellWithReuseIdentifier: "ListCollectionViewCell")
 
         if let backgroundImage = UIImage(named: "Background_Image") {
             view.backgroundColor = UIColor(patternImage: backgroundImage)
@@ -46,6 +44,7 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
         collectionView2.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.0)
     }
     var isToggled = false
+    // MARK: - 이미지 뷰 터치 이벤트
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
             if isToggled {
                 imageView.image = UIImage(named: "CellSwitch_Card")
@@ -60,12 +59,13 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource,UICo
             }
             isToggled = !isToggled
         }
-
+    // MARK: - CollectionView Index Count
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return members.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        // 셀 분기처리
         if collectionView == self.collectionView {
                 let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell", for: indexPath) as! CollectionViewCell
                 let member = members[indexPath.item]
