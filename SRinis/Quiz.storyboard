@@ -24,7 +24,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-5m-a8I">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-5m-a8I">
                                 <rect key="frame" x="30" y="89" width="333" height="39.333333333333343"/>
                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="32"/>
                                 <nil key="textColor"/>
@@ -48,7 +48,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사진 속 인물의 MBTI는?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0m-0V-v7u">
-                                <rect key="frame" x="74.333333333333329" y="388.33333333333331" width="244.33333333333331" height="34.333333333333314"/>
+                                <rect key="frame" x="50" y="388.33333333333331" width="293" height="34.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -121,6 +121,8 @@
                             <constraint firstItem="bHs-93-Z7U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDe-qF-rLE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bHs-93-Z7U" secondAttribute="trailing" constant="10" id="hOU-3X-icy"/>
                             <constraint firstItem="bHs-93-Z7U" firstAttribute="top" secondItem="d0m-0V-v7u" secondAttribute="bottom" constant="16.670000000000002" id="hi5-4s-ikl"/>
+                            <constraint firstItem="d0m-0V-v7u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="lHH-Uu-Os5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d0m-0V-v7u" secondAttribute="trailing" constant="50" id="uqY-IK-ueC"/>
                             <constraint firstItem="bHs-93-Z7U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="v4M-DT-bQK"/>
                         </constraints>
                     </view>
