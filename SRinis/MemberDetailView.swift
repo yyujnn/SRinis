@@ -36,6 +36,7 @@ struct MemberDetailView: View {
                                 .edgesIgnoringSafeArea(.all))
                     FloatingButton(member: member)
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomLeading)
+                        .padding(.bottom, 16)
                 }
             }
         }
@@ -144,19 +145,19 @@ struct FloatingButton: View {
         VStack(alignment: .trailing) {
             if isPressed {
                 Button(action: {
-                    openURL(member.email)
+                    openURL(member.blogURL)
                 }) {
                     Circle()
-                        .fill(Color.black)
+                        .fill(Color.white)
                         .frame(width: 60, height: 60)
                         .padding(.horizontal, 32)
                         .shadow(radius: 10)
                         .overlay(
-                            Image(systemName: "b.circle.fill")
+                            Image("Blog_Image")
                                 .resizable()
                                 .scaledToFit()
-                                .font(.largeTitle)
-                                .foregroundColor(.white)
+                                .frame(width: 25, height: 25)
+                                .foregroundColor(.black)
                         )
                 }
                 
@@ -169,10 +170,10 @@ struct FloatingButton: View {
                         .padding(.horizontal, 32)
                         .shadow(radius: 10)
                         .overlay(
-                            Image("git")
+                            Image("Git_Image")
                                 .resizable()
                                 .scaledToFit()
-                                .font(.largeTitle)
+                                .frame(width: 25, height: 25)
                                 .foregroundColor(.red)
                         )
                 }
@@ -186,7 +187,7 @@ struct FloatingButton: View {
                     .font(.largeTitle)
                     .overlay(
                         Image(systemName: isPressed ? "xmark" : "ellipsis")
-                            .font(.largeTitle)
+                            .frame(width: 25, height: 25)
                             .foregroundColor(.black)
                     )
             }
