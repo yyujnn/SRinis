@@ -103,14 +103,14 @@ class QuizViewController: UIViewController {
 //        example1.backgroundColor = UIColor(red: 173/255, green: 132/255, blue: 104/255, alpha: 1.0)
         if selectedIndex == currentQuestion.answerIndex {
             // 정답인 경우
-            let alert = UIAlertController(title: "정답!", message: "축하합니다.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "🎊정답!🎊", message: "🥳축하합니다🥳", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { _ in
                 self.dismiss(animated: true, completion: nil) // 또는 popViewController(animated:) 사용
             }))
             present(alert, animated: true)
         } else {
             // 오답인 경우
-            let alert = UIAlertController(title: "오답", message: "다시 시도해보세요.", preferredStyle: .alert)
+            let alert = UIAlertController(title: "❌오답❌", message: "😔다시 시도해보세요😔", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "확인", style: .cancel, handler: nil))
             present(alert, animated: true)
         }
