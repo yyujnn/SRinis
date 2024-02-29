@@ -17,7 +17,11 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var example2: UIButton!
     @IBOutlet weak var example3: UIButton!
     @IBOutlet weak var example4: UIButton!
-   
+    @IBOutlet weak var profileImageView: UIImageView!
+    var member: QuizModel!
+    var currentQuestion: QuizQuestion!
+    var buttons: [UIButton] = []
+    var selectedMemberName: String? // 선택된 멤버의 이름을 저장할 속성 추가
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,7 +32,21 @@ class QuizViewController: UIViewController {
         // 기존 뷰에 배경 이미지뷰 추가
         self.view.addSubview(backgroundImg)
         self.view.sendSubviewToBack(backgroundImg)
-        
+        // 선택된 멤버에 대한 퀴즈 데이터만 필터링
+            if let selectedMemberName = selectedMemberName,
+               let memberQuizModel = QuizData.members.first(where: { $0.name == selectedMemberName }) {
+                // 선택된 멤버의 프로필 이미지를 가져와서 이미지뷰에 할당
+                let backgroundImageString = memberQuizModel.profileImageName
+                profileImageView.image = UIImage(named: backgroundImageString)
+                self.member = memberQuizModel // 선택된 멤버의 퀴즈 모델 할당
+                if let question = memberQuizModel.quizQuestions.randomElement() {
+                    currentQuestion = question // 랜덤 문제 선택
+                    setupQuestion()
+                    setupOptions()
+                }
+            } else {
+                print("선택된 멤버의 퀴즈 데이터를 찾을 수 없습니다.")
+            }
         
         // profileView를 동그라미 모양으로 만들기 위해 모서리를 조정
         profileView.layer.cornerRadius = profileView.frame.size.width / 2
@@ -57,8 +75,57 @@ class QuizViewController: UIViewController {
     }
     @objc func buttonTapped(_ sender: UIButton) {
         // 버튼이 탭되었을 때 실행될 코드 작성
-        example1.backgroundColor = UIColor(red: 173/255, green: 132/255, blue: 104/255, alpha: 1.0)
+        sender.backgroundColor = UIColor(red: 173/255, green: 132/255, blue: 104/255, alpha: 1.0)
+        guard let option = sender.titleLabel?.text else { return }
+        checkAnswer(option)
+    }
+    func setupQuestion() {
+        questionLabel.text = currentQuestion.question
+    }
+    
+    func setupOptions() {
+        
+        buttons = [example1, example2, example3, example4]
+        
+        for (index, button) in buttons.enumerated() {
+            if index < currentQuestion.options.count {
+                button.setTitle(currentQuestion.options[index], for: .normal)
+                button.isHidden = false
+            } else {
+                button.isHidden = true
+            }
+        }
+    }
+
+    func checkAnswer(_ selectedOption: String) {
+        // 선택된 옵션의 인덱스를 찾습니다.
+        guard let selectedIndex = currentQuestion.options.firstIndex(of: selectedOption) else { return }
+//        example1.backgroundColor = UIColor(red: 173/255, green: 132/255, blue: 104/255, alpha: 1.0)
+        if selectedIndex == currentQuestion.answerIndex {
+            // 정답인 경우
+            let alert = UIAlertController(title: "정답!", message: "축하합니다.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { _ in
+                self.dismiss(animated: true, completion: nil) // 또는 popViewController(animated:) 사용
+            }))
+            present(alert, animated: true)
+        } else {
+            // 오답인 경우
+            let alert = UIAlertController(title: "오답", message: "다시 시도해보세요.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "확인", style: .cancel, handler: nil))
+            present(alert, animated: true)
+        }
+    }
+
+    
+    func showAlert(withTitle title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "확인", style: .default, handler: { _ in
+            // 추가 액션 필요 시 여기에 코드 작성
+        }))
+        present(alert, animated: true)
     }
 
 }
+
+
 
