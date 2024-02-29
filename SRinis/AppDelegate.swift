@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let appearance = UITabBarItem.appearance()
         let attributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: UIFont(name: "Cafe24Supermagic-OTF-Bold", size: 17) ?? UIFont.systemFont(ofSize: 17)]
         appearance.setTitleTextAttributes(attributes, for: .normal)
+        Thread.sleep(forTimeInterval: 1.0)
         return true
     }
 
