@@ -1,6 +1,8 @@
 # SRinis: 내일배움캠프 1주차 팀원 소개 앱 프로젝트
 SRinis는 내일배움캠프 1주차 팀원을 소개하는 간단한 앱 프로젝트입니다. 이 앱은 팀원들의 정보와 간단한 소개를 제공하여 팀원 간의 소통과 협업을 촉진합니다.
-![Simulator Screenshot - iPhone 15 Pro - 2024-03-02 at 19 28 46](https://github.com/devpark435/SRinis/assets/112539563/9a7ce456-5193-452a-80bd-bf6608070dd8)
+<p align="center">
+<img src="https://github.com/devpark435/SRinis/assets/112539563/9a7ce456-5193-452a-80bd-bf6608070dd8" alt="Simulator Screenshot - iPhone 15 Pro - 2024-03-02 at 19 28 46" width="300">
+</p>
 
 # 팀원
 1. 팀장: 장진영</br>
