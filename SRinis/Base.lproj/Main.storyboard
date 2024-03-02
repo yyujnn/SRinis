@@ -12,9 +12,6 @@
         <array key="Cafe24Supermagic-Bold-v1.0.otf">
             <string>Cafe24Supermagic-OTF-Bold</string>
         </array>
-        <array key="Cafe24Supermagic-Bold-v1.0.ttf">
-            <string>Cafe24Supermagic-Bold</string>
-        </array>
         <array key="NanumGothicCoding-Bold.ttf">
             <string>NanumGothicCoding-Bold</string>
         </array>
@@ -286,7 +283,7 @@
                                 <color key="textColor" systemColor="systemGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-rl-4Ni">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1b-rl-4Ni">
                                 <rect key="frame" x="10" y="157.33333333333331" width="373" height="611.66666666666674"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mmc-WZ-WTB">
@@ -295,10 +292,15 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tns-qb-25p">
                                                 <rect key="frame" x="30" y="30" width="313" height="170"/>
                                                 <color key="backgroundColor" red="0.59770208599999997" green="0.64411902430000001" blue="0.50562393670000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <size key="titleShadowOffset" width="2" height="2"/>
                                                 <state key="normal" title="역할 및 목표 "/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <segue destination="WWC-4z-v2b" kind="push" id="mmc-xD-Y56"/>
                                                 </connections>
@@ -306,29 +308,44 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9fP-rd-cZM">
                                                 <rect key="frame" x="30" y="230" width="313" height="170"/>
                                                 <color key="backgroundColor" red="0.59770208599999997" green="0.64411902430000001" blue="0.50562393670000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="협업소개"/>
+                                                <state key="normal" title="협력소개"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="HKI-7e-dpT" kind="push" id="6FU-ZE-lPB"/>
+                                                    <segue destination="5dH-Ch-pHo" kind="push" id="6bS-Fu-VpP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ir2-da-IbX">
                                                 <rect key="frame" x="30" y="430" width="313" height="170"/>
                                                 <color key="backgroundColor" red="0.59770208599999997" green="0.64411902430000001" blue="0.50562393670000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="성과 및 소감"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="5dH-Ch-pHo" kind="push" id="fIp-E4-h9g"/>
+                                                    <segue destination="HKI-7e-dpT" kind="push" id="VnG-sP-fW0"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRG-nf-aKh">
                                                 <rect key="frame" x="30" y="630" width="313" height="170"/>
                                                 <color key="backgroundColor" red="0.59770208599999997" green="0.64411902430000001" blue="0.50562393670000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="미래비전"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <segue destination="dSW-l7-Vgt" kind="push" id="tZ8-4X-u6h"/>
                                                 </connections>
@@ -388,7 +405,7 @@
         <!--Bottom Tab Bar Controller-->
         <scene sceneID="0I8-8q-tif">
             <objects>
-                <tabBarController id="mka-59-iSg" customClass="BottomTabBarController" customModule="SRinis" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="BottomTabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mka-59-iSg" customClass="BottomTabBarController" customModule="SRinis" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="nSX-q4-FFN" customClass="BottomTab" customModule="SRinis" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -871,7 +888,6 @@
         <!--Navigation Controller-->
         <scene sceneID="NtN-GC-FhI">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qtj-jL-2zY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mpi-ar-MUt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="X1C-R0-c4A">
@@ -880,6 +896,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtj-jL-2zY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2507.6335877862593" y="333.80281690140845"/>
         </scene>
@@ -921,72 +938,72 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="역할 및 목표" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBr-UY-SSl">
-                                                <rect key="frame" x="10" y="19.999999999999996" width="373" height="34.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <rect key="frame" x="10" y="20.000000000000004" width="373" height="36.333333333333343"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="목표" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1F-Pk-3xC">
-                                                <rect key="frame" x="10" y="64.666666666666657" width="373" height="27.666666666666671"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="66.333333333333343" width="373" height="29"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개인의 역할" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9k-hH-bYa">
-                                                <rect key="frame" x="10" y="185.66666666666669" width="373" height="27.666666666666657"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="171.33333333333331" width="373" height="29"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="우리가 어떠한 사람들인지 잘 파악하기 쉽도록 하는것이 목표입니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqE-Rg-dvV">
-                                                <rect key="frame" x="10" y="112.33333333333333" width="373" height="53.333333333333329"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="115.33333333333334" width="373" height="36"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="정유진 개발자 (팀원) - 퀴즈 베이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phL-lQ-n4f">
-                                                <rect key="frame" x="10" y="233.33333333333331" width="373" height="27.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="220.33333333333331" width="373" height="19"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박현렬 개발자 (팀원) - 멀티디스플린 AD" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Khh-rA-hHn">
-                                                <rect key="frame" x="20" y="281" width="353" height="27.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="20" y="259.33333333333331" width="353" height="19"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박순영 개발자 (팀원) - 팀 소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-GW-6mc">
-                                                <rect key="frame" x="10" y="328.66666666666669" width="373" height="27.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영영 개발자 (팀원) - 팀 소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-GW-6mc">
+                                                <rect key="frame" x="10" y="298.33333333333331" width="373" height="36"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영 개발자(팀장) - 개인소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFd-Si-vj4">
-                                                <rect key="frame" x="10" y="376.33333333333331" width="373" height="53.333333333333314"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="354.33333333333331" width="373" height="19"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이시안 개발자(팀원) - 디자인 전체 담당" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmX-pR-tih">
-                                                <rect key="frame" x="10" y="449.66666666666663" width="373" height="27.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="393.33333333333331" width="373" height="19"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1067,124 +1084,125 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akC-by-YHT">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="akC-by-YHT">
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7t6-FX-X3o">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mTq-77-9UR">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1300"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="성과 및 소감" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y63-pQ-aA1">
-                                                <rect key="frame" x="10" y="10" width="373" height="34.666666666666664"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="성과 및 소감" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eV9-nZ-7lu">
+                                                <rect key="frame" x="10" y="10" width="373" height="36.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="성과" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ym-oC-5g7">
-                                                <rect key="frame" x="10" y="54.66666666666665" width="373" height="27.666666666666664"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'스린이들' 미니 프로젝트 성과" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqa-TT-CSo">
+                                                <rect key="frame" x="10" y="56.33333333333335" width="373" height="31.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="24"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="소감" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qK7-3a-8WP">
-                                                <rect key="frame" x="10" y="267.66666666666669" width="373" height="27.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="팀 소감 한마디" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CL4-Jd-5Gh">
+                                                <rect key="frame" x="10" y="260.66666666666669" width="373" height="31.333333333333314"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="24"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9g-k4-RCN">
-                                                <rect key="frame" x="10" y="92.333333333333329" width="370.66666666666669" height="165.33333333333337"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYC-Og-7QP">
+                                                <rect key="frame" x="10" y="97.666666666666657" width="373" height="138"/>
                                                 <string key="text">스위프트 어린이 라는 타이틀을 가지고 시작한 5명의 개발 인력이 투입되어 비교적 깔끔한 스플레쉬 화면과 팀원 소개 페이지구성 및 구축을 원만히 이루어 냈고 적지 않은 비중으로 팀원 소개 페이지를 톤앤톤을 맞춰 잘 살려내어 개발자의 취미 및 성격을 알아맞출 수 있는 퀴즈까지 구축에 성공 하였습니다.</string>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영 개발 수강생 : 스위프트는 처음이었는데, 꽤 흥미롭고 재밌었습니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EyQ-2P-Qpp">
-                                                <rect key="frame" x="10" y="305.33333333333331" width="373" height="48.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[장진영 개발 수강생] : 프로젝트를 목표한 대로 완료해서 자신감을 얻었습니다. 협업은 고민을 확장시켰고 그걸 해결해 가는 과정은 새로운 학습이었습니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUk-Nl-n6t">
+                                                <rect key="frame" x="10" y="302" width="373" height="70"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="정유진 개발 수강생 : 짧다고 하면 짧은 시간 동안 많은 것을 배웠습니다 ㅎㅎㅎ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqE-g2-KVi">
-                                                <rect key="frame" x="10" y="364" width="373" height="48.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eJQ-69-1CE">
+                                                <rect key="frame" x="10" y="397" width="373" height="155"/>
+                                                <string key="text">[정유진 개발 수강생] : 첫 프로젝트다 보니 처음엔 어색하고 어려웠지만 모두 열심히 해주셔서 생각보다 작업이 빨리 끝나고  목표보다 더 멋지게 완성된 것 같습니다! 막히는 게 있을 땐 튜터님들의 친절한 설명으로 해결할 수 있었습니다. 첫 프로젝트로 간단한 앱을 만들게 되어 뿌듯하고 성장했다고 생각합니다. 스린이들 최고였습니다!!</string>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영 개발 수강생 : 다양한 개발경험을 통해 즐거움을 알아 갈 수 있어서 좋았습니다 ㅅㅅ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOD-uL-rr6">
-                                                <rect key="frame" x="10" y="422.66666666666663" width="373" height="48.666666666666686"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[박준영 개발 수강생] : 꽤 작은 프로젝트 였지만 많은 생각이 들게 되었어요, 같은 시선에서 같은 목표를 가지고 함께 할 수 있어서 너무 좋았습니다. 그리고 개발경험을 통해 즐거움을 알아 갈 수 있어서 좋았습니다!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDl-yP-gPv">
+                                                <rect key="frame" x="10" y="577" width="373" height="104"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박현렬 개발 수강생 : 복잡한 시간들이 다소 많았지만, 이겨낸 보람이 있습니다 +_+" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fY-wH-uRn">
-                                                <rect key="frame" x="10" y="481.33333333333337" width="373" height="48.666666666666629"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[박현렬 개발 수강생] : 초면인 팀원 들과 1주일이라는 기간에 단기로 만드는 프로젝트를 통해서 새로운 사람을 만나 대화하고 협업하는 과정에 대해서 배우면서 성장했다고 생각합니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCw-EI-gvR">
+                                                <rect key="frame" x="10" y="706" width="373" height="87"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이시안 개발 수강생 : 서로서로 노력한 결과물이 나온것 같아요!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53i-bX-iwZ">
-                                                <rect key="frame" x="10" y="540" width="373" height="48.666666666666629"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V7L-vG-zaw">
+                                                <rect key="frame" x="10" y="818" width="373" height="121"/>
+                                                <string key="text">[이시안 개발 수강생] : 코딩과 개발이란 영역에 입문한 지 이제 한 달차! 팀 프로젝트를 위한 디자인은 만들어본 적 있어도 직접 프로그램에 들어갈 페이지까지 만들어본 건 이번이 처음이라 너무 신기하고 소중한 경험이었습니다. 팀원들 덕분에 많이 배워가요~</string>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="nqE-g2-KVi" secondAttribute="trailing" constant="10" id="6hK-7d-xAC"/>
-                                            <constraint firstAttribute="trailing" secondItem="jOD-uL-rr6" secondAttribute="trailing" constant="10" id="6vO-Wb-hAd"/>
-                                            <constraint firstItem="s9g-k4-RCN" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="8Dy-lb-Bfn"/>
-                                            <constraint firstAttribute="height" constant="800" id="8GW-M8-tvL"/>
-                                            <constraint firstItem="EyQ-2P-Qpp" firstAttribute="top" secondItem="qK7-3a-8WP" secondAttribute="bottom" constant="10" id="Bv2-mG-srB"/>
-                                            <constraint firstItem="Y63-pQ-aA1" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="D1o-uy-mTt"/>
-                                            <constraint firstItem="53i-bX-iwZ" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="GNh-Ie-isC"/>
-                                            <constraint firstAttribute="trailing" secondItem="EyQ-2P-Qpp" secondAttribute="trailing" constant="10" id="H4v-fJ-wlJ"/>
-                                            <constraint firstItem="3fY-wH-uRn" firstAttribute="top" secondItem="jOD-uL-rr6" secondAttribute="bottom" constant="10" id="JMH-sX-4ig"/>
-                                            <constraint firstItem="8Ym-oC-5g7" firstAttribute="top" secondItem="Y63-pQ-aA1" secondAttribute="bottom" constant="10" id="Nuh-7h-oTe"/>
-                                            <constraint firstItem="jOD-uL-rr6" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="OdX-aJ-vHS"/>
-                                            <constraint firstAttribute="trailing" secondItem="Y63-pQ-aA1" secondAttribute="trailing" constant="10" id="Q05-9B-ABF"/>
-                                            <constraint firstAttribute="trailing" secondItem="53i-bX-iwZ" secondAttribute="trailing" constant="10" id="QcC-fb-M4h"/>
-                                            <constraint firstItem="nqE-g2-KVi" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="QnH-0a-4DT"/>
-                                            <constraint firstItem="EyQ-2P-Qpp" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="Suw-Li-rHL"/>
-                                            <constraint firstItem="Y63-pQ-aA1" firstAttribute="top" secondItem="7t6-FX-X3o" secondAttribute="top" constant="10" id="URb-Es-2Sy"/>
-                                            <constraint firstItem="53i-bX-iwZ" firstAttribute="top" secondItem="3fY-wH-uRn" secondAttribute="bottom" constant="10" id="Xbv-ym-f8F"/>
-                                            <constraint firstItem="s9g-k4-RCN" firstAttribute="top" secondItem="8Ym-oC-5g7" secondAttribute="bottom" constant="10" id="ciB-xq-zWj"/>
-                                            <constraint firstItem="qK7-3a-8WP" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="ejS-2U-GoK"/>
-                                            <constraint firstAttribute="trailing" secondItem="qK7-3a-8WP" secondAttribute="trailing" constant="10" id="f0M-Rr-WZt"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="s9g-k4-RCN" secondAttribute="trailing" constant="10" id="fhZ-sO-Qqn"/>
-                                            <constraint firstItem="8Ym-oC-5g7" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="gC1-St-UJG"/>
-                                            <constraint firstItem="3fY-wH-uRn" firstAttribute="leading" secondItem="7t6-FX-X3o" secondAttribute="leading" constant="10" id="gaK-gD-C2F"/>
-                                            <constraint firstItem="jOD-uL-rr6" firstAttribute="top" secondItem="nqE-g2-KVi" secondAttribute="bottom" constant="10" id="mfg-e8-vA3"/>
-                                            <constraint firstAttribute="trailing" secondItem="3fY-wH-uRn" secondAttribute="trailing" constant="10" id="sbi-YL-qFS"/>
-                                            <constraint firstAttribute="trailing" secondItem="8Ym-oC-5g7" secondAttribute="trailing" constant="10" id="xGL-rR-Sow"/>
-                                            <constraint firstItem="nqE-g2-KVi" firstAttribute="top" secondItem="EyQ-2P-Qpp" secondAttribute="bottom" constant="10" id="yVS-cq-cTR"/>
-                                            <constraint firstItem="qK7-3a-8WP" firstAttribute="top" secondItem="s9g-k4-RCN" secondAttribute="bottom" constant="10" id="zN0-TT-PeJ"/>
+                                            <constraint firstItem="sUk-Nl-n6t" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="1LZ-qB-IGf"/>
+                                            <constraint firstItem="V7L-vG-zaw" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="276-vs-OFI"/>
+                                            <constraint firstItem="eV9-nZ-7lu" firstAttribute="top" secondItem="mTq-77-9UR" secondAttribute="top" constant="10" id="27H-cU-vf4"/>
+                                            <constraint firstAttribute="trailing" secondItem="eJQ-69-1CE" secondAttribute="trailing" constant="10" id="2Sa-U9-eDp"/>
+                                            <constraint firstItem="wDl-yP-gPv" firstAttribute="top" secondItem="eJQ-69-1CE" secondAttribute="bottom" constant="25" id="9sj-jO-1wZ"/>
+                                            <constraint firstItem="vCw-EI-gvR" firstAttribute="top" secondItem="wDl-yP-gPv" secondAttribute="bottom" constant="25" id="Duw-iM-scg"/>
+                                            <constraint firstItem="NYC-Og-7QP" firstAttribute="top" secondItem="yqa-TT-CSo" secondAttribute="bottom" constant="10" id="EXd-bA-5ve"/>
+                                            <constraint firstItem="eJQ-69-1CE" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="FTA-IS-Amv"/>
+                                            <constraint firstItem="CL4-Jd-5Gh" firstAttribute="top" secondItem="NYC-Og-7QP" secondAttribute="bottom" constant="25" id="JMI-sm-swp"/>
+                                            <constraint firstAttribute="trailing" secondItem="V7L-vG-zaw" secondAttribute="trailing" constant="10" id="KOu-PD-Ge3"/>
+                                            <constraint firstAttribute="height" constant="1300" id="Kyf-Iu-T38"/>
+                                            <constraint firstAttribute="trailing" secondItem="CL4-Jd-5Gh" secondAttribute="trailing" constant="10" id="Lhh-tt-wDV"/>
+                                            <constraint firstItem="V7L-vG-zaw" firstAttribute="top" secondItem="vCw-EI-gvR" secondAttribute="bottom" constant="25" id="MRc-81-F27"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NYC-Og-7QP" secondAttribute="trailing" constant="10" id="Oud-G7-1Hy"/>
+                                            <constraint firstItem="eJQ-69-1CE" firstAttribute="top" secondItem="sUk-Nl-n6t" secondAttribute="bottom" constant="25" id="Qr8-N5-wsJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="yqa-TT-CSo" secondAttribute="trailing" constant="10" id="Xey-DP-6PO"/>
+                                            <constraint firstAttribute="trailing" secondItem="sUk-Nl-n6t" secondAttribute="trailing" constant="10" id="aKV-FZ-YvG"/>
+                                            <constraint firstItem="yqa-TT-CSo" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="bDX-jw-tNX"/>
+                                            <constraint firstItem="CL4-Jd-5Gh" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="dzx-xz-Y3T"/>
+                                            <constraint firstItem="sUk-Nl-n6t" firstAttribute="top" secondItem="CL4-Jd-5Gh" secondAttribute="bottom" constant="10" id="gBe-Zm-EcV"/>
+                                            <constraint firstItem="NYC-Og-7QP" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="iFc-nM-iOp"/>
+                                            <constraint firstAttribute="trailing" secondItem="vCw-EI-gvR" secondAttribute="trailing" constant="10" id="ist-aS-TVv"/>
+                                            <constraint firstItem="wDl-yP-gPv" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="iy1-nA-VUZ"/>
+                                            <constraint firstItem="eV9-nZ-7lu" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="pCb-Ix-WQh"/>
+                                            <constraint firstAttribute="trailing" secondItem="eV9-nZ-7lu" secondAttribute="trailing" constant="10" id="w2s-Pv-hRn"/>
+                                            <constraint firstAttribute="trailing" secondItem="wDl-yP-gPv" secondAttribute="trailing" constant="10" id="w4O-T8-AlC"/>
+                                            <constraint firstItem="yqa-TT-CSo" firstAttribute="top" secondItem="eV9-nZ-7lu" secondAttribute="bottom" constant="10" id="wic-0W-ibm"/>
+                                            <constraint firstItem="vCw-EI-gvR" firstAttribute="leading" secondItem="mTq-77-9UR" secondAttribute="leading" constant="10" id="xpv-fL-DvE"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="7t6-FX-X3o" firstAttribute="leading" secondItem="KBp-03-fTv" secondAttribute="leading" id="6h0-qa-MoL"/>
-                                    <constraint firstItem="7t6-FX-X3o" firstAttribute="bottom" secondItem="KBp-03-fTv" secondAttribute="bottom" id="Bqy-oK-eK0"/>
-                                    <constraint firstItem="7t6-FX-X3o" firstAttribute="width" secondItem="Gcb-Lf-tec" secondAttribute="width" id="GIh-Ou-wqz"/>
-                                    <constraint firstItem="7t6-FX-X3o" firstAttribute="trailing" secondItem="KBp-03-fTv" secondAttribute="trailing" id="V82-M1-hoP"/>
-                                    <constraint firstItem="7t6-FX-X3o" firstAttribute="top" secondItem="KBp-03-fTv" secondAttribute="top" id="lBP-O7-O34"/>
+                                    <constraint firstItem="mTq-77-9UR" firstAttribute="leading" secondItem="Gcb-Lf-tec" secondAttribute="leading" id="Qcp-9A-1NB"/>
+                                    <constraint firstAttribute="bottom" secondItem="mTq-77-9UR" secondAttribute="bottom" id="RIX-1g-wnC"/>
+                                    <constraint firstItem="mTq-77-9UR" firstAttribute="top" secondItem="akC-by-YHT" secondAttribute="top" id="ej9-BQ-bBE"/>
+                                    <constraint firstItem="mTq-77-9UR" firstAttribute="trailing" secondItem="Gcb-Lf-tec" secondAttribute="trailing" id="nkc-vk-0Sq"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="KBp-03-fTv"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Gcb-Lf-tec"/>
@@ -1217,112 +1235,144 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sxz-9x-95x">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sxz-9x-95x">
                                 <rect key="frame" x="0.0" y="103" width="393" height="666"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W4C-pK-ouU">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zbg-p1-BjL">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="협업소개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsF-51-eL9">
-                                                <rect key="frame" x="10" y="10" width="373" height="34.666666666666664"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="협력소개" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQX-x4-rTI">
+                                                <rect key="frame" x="10" y="10" width="373" height="36.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="도와주신 개발자 분들" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iB5-WX-BNY">
-                                                <rect key="frame" x="10" y="54.66666666666665" width="373" height="27.666666666666664"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="도움을 주신 분들" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCV-nZ-VxZ">
+                                                <rect key="frame" x="10" y="56.33333333333335" width="373" height="31.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="24"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQm-KM-dbp">
-                                                <rect key="frame" x="10" y="130" width="373" height="25.333333333333343"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="윤정현 매니저님, 원성준 담임 매니저님 " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2y-6T-0HO">
+                                                <rect key="frame" x="10" y="153.66666666666669" width="373" height="46"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박현렬(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="07Y-8N-2HU">
-                                                <rect key="frame" x="10" y="165.33333333333331" width="373" height="25.333333333333343"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="도와주신 분들" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAj-BZ-SRv">
+                                                <rect key="frame" x="10" y="209.66666666666669" width="373" height="31.333333333333343"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="24"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이시안(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4B7-C4-71s">
-                                                <rect key="frame" x="10" y="200.66666666666669" width="373" height="25.333333333333343"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* design part *" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfZ-3J-bAb">
+                                                <rect key="frame" x="10" y="251" width="373" height="29"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xfk-Cb-2ta">
-                                                <rect key="frame" x="10" y="236" width="373" height="25.333333333333314"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 이시안(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVD-SN-PIA">
+                                                <rect key="frame" x="10" y="290" width="373" height="24"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="정유진(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcV-cC-Yuw">
-                                                <rect key="frame" x="10" y="271.33333333333331" width="373" height="25.333333333333314"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Development part *" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6j-E0-Vas">
+                                                <rect key="frame" x="10" y="324" width="373" height="29"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="찬우 튜터님, OO튜터님, OO튜터님" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MX-Sz-mma">
-                                                <rect key="frame" x="10" y="92.333333333333343" width="373" height="27.666666666666671"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박현렬(수강생), 박준영(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZl-5h-h5E">
+                                                <rect key="frame" x="10" y="363" width="373" height="24"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <size key="shadowOffset" width="3" height="2"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영(수강생), 정유진(수강생)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0u-eP-F3v">
+                                                <rect key="frame" x="10" y="397" width="373" height="24"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
+                                                <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="조찬우 튜터님, 윤여종 튜터님, 이송 튜터님" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkC-iK-TjV">
+                                                <rect key="frame" x="10" y="97.666666666666657" width="373" height="46"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
+                                                <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="참여해 주신 분들 감사드립니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XU5-cV-MAv">
+                                                <rect key="frame" x="10" y="451" width="373" height="18"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
+                                                <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="1"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="lcV-cC-Yuw" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="6Tx-jM-N8y"/>
-                                            <constraint firstItem="iB5-WX-BNY" firstAttribute="top" secondItem="KsF-51-eL9" secondAttribute="bottom" constant="10" id="7pf-rd-qw7"/>
-                                            <constraint firstItem="iB5-WX-BNY" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="AGZ-mL-l6y"/>
-                                            <constraint firstAttribute="trailing" secondItem="oQm-KM-dbp" secondAttribute="trailing" constant="10" id="FnA-l5-jIL"/>
-                                            <constraint firstAttribute="trailing" secondItem="07Y-8N-2HU" secondAttribute="trailing" constant="10" id="GJD-3H-H8e"/>
-                                            <constraint firstAttribute="trailing" secondItem="4B7-C4-71s" secondAttribute="trailing" constant="10" id="I94-Ho-3Ym"/>
-                                            <constraint firstItem="oQm-KM-dbp" firstAttribute="top" secondItem="5MX-Sz-mma" secondAttribute="bottom" constant="10" id="NGP-8D-sVW"/>
-                                            <constraint firstAttribute="trailing" secondItem="iB5-WX-BNY" secondAttribute="trailing" constant="10" id="Q6T-ld-SuD"/>
-                                            <constraint firstItem="KsF-51-eL9" firstAttribute="top" secondItem="W4C-pK-ouU" secondAttribute="top" constant="10" id="QIU-Mb-wnl"/>
-                                            <constraint firstAttribute="trailing" secondItem="5MX-Sz-mma" secondAttribute="trailing" constant="10" id="TDt-9a-hud"/>
-                                            <constraint firstItem="4B7-C4-71s" firstAttribute="top" secondItem="07Y-8N-2HU" secondAttribute="bottom" constant="10" id="UED-bf-kca"/>
-                                            <constraint firstAttribute="height" constant="800" id="VXq-C8-vto"/>
-                                            <constraint firstItem="lcV-cC-Yuw" firstAttribute="top" secondItem="Xfk-Cb-2ta" secondAttribute="bottom" constant="10" id="Vhn-TR-pqt"/>
-                                            <constraint firstAttribute="trailing" secondItem="Xfk-Cb-2ta" secondAttribute="trailing" constant="10" id="YtS-wR-aLU"/>
-                                            <constraint firstItem="Xfk-Cb-2ta" firstAttribute="top" secondItem="4B7-C4-71s" secondAttribute="bottom" constant="10" id="aIU-v7-1WL"/>
-                                            <constraint firstItem="Xfk-Cb-2ta" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="dR8-Ic-EdA"/>
-                                            <constraint firstAttribute="trailing" secondItem="lcV-cC-Yuw" secondAttribute="trailing" constant="10" id="joc-z4-69M"/>
-                                            <constraint firstItem="5MX-Sz-mma" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="kF9-x4-Yhr"/>
-                                            <constraint firstItem="4B7-C4-71s" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="kX0-T0-YgS"/>
-                                            <constraint firstItem="07Y-8N-2HU" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="ls7-t0-5O0"/>
-                                            <constraint firstItem="5MX-Sz-mma" firstAttribute="top" secondItem="iB5-WX-BNY" secondAttribute="bottom" constant="10" id="qKx-re-Tt3"/>
-                                            <constraint firstItem="KsF-51-eL9" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="s1q-Dj-cjN"/>
-                                            <constraint firstItem="oQm-KM-dbp" firstAttribute="leading" secondItem="W4C-pK-ouU" secondAttribute="leading" constant="10" id="uka-GR-Ziq"/>
-                                            <constraint firstItem="07Y-8N-2HU" firstAttribute="top" secondItem="oQm-KM-dbp" secondAttribute="bottom" constant="10" id="xYb-Z4-7dm"/>
-                                            <constraint firstAttribute="trailing" secondItem="KsF-51-eL9" secondAttribute="trailing" constant="10" id="yCF-Bx-yWK"/>
+                                            <constraint firstItem="U2y-6T-0HO" firstAttribute="top" secondItem="xkC-iK-TjV" secondAttribute="bottom" constant="10" id="040-Cf-OSM"/>
+                                            <constraint firstItem="fVD-SN-PIA" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="1bE-08-LWK"/>
+                                            <constraint firstItem="fQX-x4-rTI" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="23q-gz-Sh6"/>
+                                            <constraint firstItem="bfZ-3J-bAb" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="2K2-Ba-4mE"/>
+                                            <constraint firstItem="bfZ-3J-bAb" firstAttribute="top" secondItem="PAj-BZ-SRv" secondAttribute="bottom" constant="10" id="3uR-r3-Ezs"/>
+                                            <constraint firstItem="oCV-nZ-VxZ" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="4TF-qV-V4L"/>
+                                            <constraint firstAttribute="trailing" secondItem="fVD-SN-PIA" secondAttribute="trailing" constant="10" id="5wJ-ue-h95"/>
+                                            <constraint firstItem="eZl-5h-h5E" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="6Hd-ru-dgf"/>
+                                            <constraint firstAttribute="height" constant="800" id="7C7-r2-v52"/>
+                                            <constraint firstItem="PAj-BZ-SRv" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="8kS-pf-qDr"/>
+                                            <constraint firstItem="I0u-eP-F3v" firstAttribute="top" secondItem="eZl-5h-h5E" secondAttribute="bottom" constant="10" id="91d-Sc-qfl"/>
+                                            <constraint firstItem="eZl-5h-h5E" firstAttribute="top" secondItem="x6j-E0-Vas" secondAttribute="bottom" constant="10" id="A7s-rQ-o7H"/>
+                                            <constraint firstAttribute="trailing" secondItem="xkC-iK-TjV" secondAttribute="trailing" constant="10" id="GdJ-CL-zMm"/>
+                                            <constraint firstItem="U2y-6T-0HO" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="JN0-U2-gZV"/>
+                                            <constraint firstAttribute="trailing" secondItem="XU5-cV-MAv" secondAttribute="trailing" constant="10" id="Jhg-cq-5Ca"/>
+                                            <constraint firstItem="fQX-x4-rTI" firstAttribute="top" secondItem="Zbg-p1-BjL" secondAttribute="top" constant="10" id="Nst-WO-Hpa"/>
+                                            <constraint firstItem="I0u-eP-F3v" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="RtJ-b7-rXt"/>
+                                            <constraint firstAttribute="trailing" secondItem="x6j-E0-Vas" secondAttribute="trailing" constant="10" id="a0G-rt-1Eb"/>
+                                            <constraint firstAttribute="trailing" secondItem="PAj-BZ-SRv" secondAttribute="trailing" constant="10" id="bbw-OF-Pgq"/>
+                                            <constraint firstItem="fVD-SN-PIA" firstAttribute="top" secondItem="bfZ-3J-bAb" secondAttribute="bottom" constant="10" id="cRP-Ez-bd1"/>
+                                            <constraint firstItem="XU5-cV-MAv" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="dAV-hq-1YN"/>
+                                            <constraint firstAttribute="trailing" secondItem="U2y-6T-0HO" secondAttribute="trailing" constant="10" id="fJc-3K-Fry"/>
+                                            <constraint firstItem="PAj-BZ-SRv" firstAttribute="top" secondItem="U2y-6T-0HO" secondAttribute="bottom" constant="10" id="ff7-4v-fYO"/>
+                                            <constraint firstItem="x6j-E0-Vas" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="g1b-yC-3z1"/>
+                                            <constraint firstAttribute="trailing" secondItem="fQX-x4-rTI" secondAttribute="trailing" constant="10" id="moC-Wp-Cej"/>
+                                            <constraint firstItem="xkC-iK-TjV" firstAttribute="top" secondItem="oCV-nZ-VxZ" secondAttribute="bottom" constant="10" id="ngB-TU-Eet"/>
+                                            <constraint firstAttribute="trailing" secondItem="I0u-eP-F3v" secondAttribute="trailing" constant="10" id="oy3-zp-mhA"/>
+                                            <constraint firstItem="oCV-nZ-VxZ" firstAttribute="top" secondItem="fQX-x4-rTI" secondAttribute="bottom" constant="10" id="rm4-Zu-jCT"/>
+                                            <constraint firstAttribute="trailing" secondItem="oCV-nZ-VxZ" secondAttribute="trailing" constant="10" id="tj6-mX-q27"/>
+                                            <constraint firstItem="XU5-cV-MAv" firstAttribute="top" secondItem="I0u-eP-F3v" secondAttribute="bottom" constant="30" id="uXV-Ac-wZF"/>
+                                            <constraint firstItem="x6j-E0-Vas" firstAttribute="top" secondItem="fVD-SN-PIA" secondAttribute="bottom" constant="10" id="vyZ-dU-R2i"/>
+                                            <constraint firstAttribute="trailing" secondItem="bfZ-3J-bAb" secondAttribute="trailing" constant="10" id="wAp-mE-anT"/>
+                                            <constraint firstItem="xkC-iK-TjV" firstAttribute="leading" secondItem="Zbg-p1-BjL" secondAttribute="leading" constant="10" id="yIK-O1-EfA"/>
+                                            <constraint firstAttribute="trailing" secondItem="eZl-5h-h5E" secondAttribute="trailing" constant="10" id="zlK-8S-Va1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="W4C-pK-ouU" firstAttribute="top" secondItem="SsY-hC-6BI" secondAttribute="top" id="1FP-EG-7Uh"/>
-                                    <constraint firstItem="W4C-pK-ouU" firstAttribute="trailing" secondItem="SsY-hC-6BI" secondAttribute="trailing" id="P01-Hi-6xe"/>
-                                    <constraint firstItem="W4C-pK-ouU" firstAttribute="width" secondItem="WH8-xm-juD" secondAttribute="width" id="cUm-QE-0Os"/>
-                                    <constraint firstItem="W4C-pK-ouU" firstAttribute="bottom" secondItem="SsY-hC-6BI" secondAttribute="bottom" id="fXc-2Y-fxf"/>
-                                    <constraint firstItem="W4C-pK-ouU" firstAttribute="leading" secondItem="SsY-hC-6BI" secondAttribute="leading" id="qg3-JJ-kMH"/>
+                                    <constraint firstItem="Zbg-p1-BjL" firstAttribute="leading" secondItem="WH8-xm-juD" secondAttribute="leading" id="QrC-z5-Ejt"/>
+                                    <constraint firstItem="Zbg-p1-BjL" firstAttribute="top" secondItem="Sxz-9x-95x" secondAttribute="top" id="jK6-jk-hRC"/>
+                                    <constraint firstItem="SsY-hC-6BI" firstAttribute="bottom" secondItem="Zbg-p1-BjL" secondAttribute="bottom" id="p9n-Bz-API"/>
+                                    <constraint firstItem="Zbg-p1-BjL" firstAttribute="trailing" secondItem="WH8-xm-juD" secondAttribute="trailing" id="qUS-z2-wKt"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="SsY-hC-6BI"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="WH8-xm-juD"/>
@@ -1362,16 +1412,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="800"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="미래비전" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D9y-aT-Lhw">
-                                                <rect key="frame" x="10" y="10" width="373" height="34.666666666666664"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="28"/>
+                                                <rect key="frame" x="10" y="10" width="373" height="36.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-OTF-Bold" family="Cafe24 Supermagic OTF" pointSize="28"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스위프트 마스터가 되어 다양한 교육시스템을 촉진하고, 미래 세대의 창의성과 능력 비중을 키우는 데 힘써 나아가 개인의 발전과 능력을 중시하여 스스로의 협업 능력을 갈고 닦을 수 있는 개발자들이 되어 힘쓰는 미래를 꿈꿉니다." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIE-Nb-l10">
-                                                <rect key="frame" x="10" y="104.66666666666666" width="373" height="155.99999999999997"/>
-                                                <fontDescription key="fontDescription" name="Cafe24Supermagic-Bold" family="Cafe24 Supermagic" pointSize="22"/>
+                                                <rect key="frame" x="10" y="106.33333333333334" width="373" height="178.00000000000003"/>
+                                                <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="22"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

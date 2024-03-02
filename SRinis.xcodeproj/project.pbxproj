@@ -30,6 +30,7 @@
 		B5EAD5A52B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf in Resources */ = {isa = PBXBuildFile; fileRef = B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */; };
 		B5EAD5B62B9090F40030F2DD /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5B42B9090F40030F2DD /* QuizData.swift */; };
 		B5EAD5B72B9090F40030F2DD /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5B52B9090F40030F2DD /* QuizModel.swift */; };
+		B5EAD5BE2B932D9F0030F2DD /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAD5BD2B932D9F0030F2DD /* LaunchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		B5EAD5A42B8F44730030F2DD /* Cafe24Supermagic-Bold-v1.0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cafe24Supermagic-Bold-v1.0.otf"; sourceTree = "<group>"; };
 		B5EAD5B42B9090F40030F2DD /* QuizData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
 		B5EAD5B52B9090F40030F2DD /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		B5EAD5BD2B932D9F0030F2DD /* LaunchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B5EAD59D2B8F19E70030F2DD /* .gitignore */,
 				B5EAD5B42B9090F40030F2DD /* QuizData.swift */,
 				B5EAD5B52B9090F40030F2DD /* QuizModel.swift */,
+				B5EAD5BD2B932D9F0030F2DD /* LaunchView.swift */,
 			);
 			path = SRinis;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EAD5B62B9090F40030F2DD /* QuizData.swift in Sources */,
+				B5EAD5BE2B932D9F0030F2DD /* LaunchView.swift in Sources */,
 				B5EAD5762B8EC2E40030F2DD /* CollectionViewCell.swift in Sources */,
 				B5EAD58A2B8ED5F70030F2DD /* MemberDetailView.swift in Sources */,
 				B5EAD5932B8EE28E0030F2DD /* TeamMember.swift in Sources */,
@@ -372,7 +376,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SRinis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -400,7 +404,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SRinis/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
