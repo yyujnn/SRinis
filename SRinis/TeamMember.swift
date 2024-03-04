@@ -14,7 +14,7 @@ struct JinyoungJang: Member {
     let email = "mgynsz@gmail.com"
     let mbti = "INFJ"
     let hobby = "등산"
-    let shortDescription = "으랏차차!"
+    let shortDescription = "내배캠 3기 화이팅!!!"
     let isLeader = true
     let blogURL = "https://velog.io/@mgynsz/posts"
     let githubURL = "https://github.com/mgynsz"
