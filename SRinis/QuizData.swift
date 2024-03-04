@@ -21,7 +21,7 @@ struct QuizData {
             QuizQuestion(question: "사진 속 인물의 취미는?", options: ["책 주문하기", "책 모셔놓기", "책 읽기", "책 받쳐 놓고 라면먹기"], answerIndex: 2)
         ]),
         QuizModel(name: "이시안", profileImageName: "SianLee_Face", quizQuestions: [
-            QuizQuestion(question: "사진 속 인물의 MBTI는?", options: ["ISFP", "INTJ", "INFP", "ESTP"], answerIndex: 0),
+            QuizQuestion(question: "사진 속 인물의 MBTI는?", options: ["ISFP", "INTJ", "INFP", "ESTP"], answerIndex: 2),
             QuizQuestion(question: "사진 속 인물의 취미는?", options: ["영하 보기", "영화 제작", "부귀영화", "영화 보기"], answerIndex: 3)
         ]),
         QuizModel(name: "박현렬", profileImageName: "HyunryeolPark_Face", quizQuestions: [

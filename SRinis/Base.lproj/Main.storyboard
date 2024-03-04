@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mka-59-iSg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mka-59-iSg">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -499,7 +499,7 @@
                                     <constraint firstAttribute="width" secondItem="Ip1-LN-1yk" secondAttribute="height" multiplier="1:1" id="g9C-bU-3Aj"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Zh8-x4-0eT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yujin" translatesAutoresizingMaskIntoConstraints="NO" id="Zh8-x4-0eT">
                                 <rect key="frame" x="57" y="642" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Zh8-x4-0eT" secondAttribute="height" multiplier="1:1" id="EEl-Or-zJc"/>
@@ -985,8 +985,8 @@
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영영 개발자 (팀원) - 팀 소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-GW-6mc">
-                                                <rect key="frame" x="10" y="298.33333333333331" width="373" height="36"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="박준영 개발자 (팀원) - 팀 소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6q-GW-6mc">
+                                                <rect key="frame" x="10" y="298.33333333333331" width="373" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -994,7 +994,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="장진영 개발자(팀장) - 개인소개 페이지 개발" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFd-Si-vj4">
-                                                <rect key="frame" x="10" y="354.33333333333331" width="373" height="19"/>
+                                                <rect key="frame" x="10" y="337.33333333333331" width="373" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1002,7 +1002,7 @@
                                                 <size key="shadowOffset" width="3" height="2"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이시안 개발자(팀원) - 디자인 전체 담당" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XmX-pR-tih">
-                                                <rect key="frame" x="10" y="393.33333333333331" width="373" height="19"/>
+                                                <rect key="frame" x="10" y="376.33333333333331" width="373" height="19"/>
                                                 <fontDescription key="fontDescription" name="NanumGothicCoding" family="NanumGothicCoding" pointSize="17"/>
                                                 <color key="textColor" red="0.93332809210000001" green="0.90815120940000005" blue="0.86316943170000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1471,6 +1471,7 @@
     <resources>
         <image name="Background_Image" width="393" height="852"/>
         <image name="Image1" width="360" height="360"/>
+        <image name="yujin" width="360" height="360"/>
         <image name="배경" width="393" height="980"/>
         <image name="스위치" width="283" height="139"/>
         <image name="시안" width="420" height="420"/>
